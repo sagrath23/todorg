@@ -1,0 +1,9 @@
+{
+  "name": "todorg-fe",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/todorg-fe",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project todorg-fe --web",
+  "targets": {}
+}
