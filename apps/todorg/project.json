@@ -1,0 +1,24 @@
+{
+  "name": "todorg",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/todorg/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "serve": {
+      "executor": "@nx/js:node",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "todorg:build"
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "todorg:build:development"
+        },
+        "production": {
+          "buildTarget": "todorg:build:production"
+        }
+      }
+    }
+  }
+}
